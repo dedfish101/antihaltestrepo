@@ -1,0 +1,9 @@
+# Scan-only fixture. Do not install this manifest.
+# Historical malicious release documented in OSV MAL-2025-2992.
+python-dateutil-malicious==2.5.4
+# Historical compromised release documented in PYSEC-2024-154.
+ultralytics==8.3.41
+# Deliberately missing release.
+requests==9999.0.0
+# Ordinary published release for comparison.
+idna==3.10
